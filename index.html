@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Digital Nexus</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="files/favicon_io/site.webmanifest">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!--Header Section-->
+    <header class="header">
+        <a href="#" class="logo"> Digital Nexus</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Serach Here...." onkeyup="search()">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter Your Email" class="box">
+            <input type="password" placeholder="Enter Your password" class="box">
+
+            <p>Forget your password <a href="#">Click Here</a></p>
+            <p>Don't have an account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+
+    </header>
+    <!--Header Section-->
+
+    <!--Banner section-->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Welcome to <span>Digital Nexus!</span></h3> <br>
+
+            <p>Our number one source for all things tech. We're dedicated to giving you the very best of computer
+                parts, with a focus on quality, price, brand.</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+    <!--Banner section-->
+
+    <!--Our Features section-->
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <img src="images/friend2.png">
+                <h3>FRIENDLY SERVICE</h3>
+                <p>Messaging Help Center</p>
+            </div>
+            <div class="box">
+                <img src="images/pay2.png">
+                <h3>SAFE PAYMENT</h3>
+                <p>100% secure payment</p>
+            </div>
+            <div class="box">
+                <img src="images/fast2.png">
+                <h3>FAST DELIVERY</h3>
+                <p>Island wide Delivery</p>
+            </div>
+            <div class="box">
+                <img src="images/men2.png">
+                <h3>SHOP WITH CONFIDENCE</h3>
+                <p>World's No1 IT Brands</p>
+            </div>
+        </div>
+
+    </section>
+    <!--Our Features section-->
+
+    <!--Top Products section-->
+    <section class="products" id="products">
+        <h1 class="heading">Top <span>Products</span></h1>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/videocard1.png"></a>
+                <h3>Gigabyte GeForce <br>RTX 4090 24GB Gaming <br>OC video card</h3>
+                <p>2222.46 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/proc1.webp"></a>
+                <h3>Processor Intel Core i9 13900F <br>2GHz (36MB, Raptor Lake, 219W, S1700) <br>Box (BX8071513900F)
+                </h3>
+                <p>549.01 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/maus2.jpg"></a>
+                <h3>Logitech G Pro X <br>Superlight 2 White <br>(910-006638)</h3>
+                <p>161.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/monitor4.png"></a>
+                <h3>Asus 27" ROG Swift <br>PG27UQR (90LM03A0-B02370) <br>IPS Black 160Hz</h3>
+                <p>1277.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+    </section>
+    <!--Top Products section-->
+
+    <!--Our Categories section-->
+    <section class="categories" id="categories">
+        <h1 class="heading">Our <span>Categories</span></h1>
+
+        <h2>Graphic Cards</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/videocard1.png"></a>
+                <h3>Gigabyte GeForce RTX 4090 24GB Gaming OC video card</h3>
+                <p>2222.46 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/videocard2.png"></a>
+                <h3>Gigabyte GeForce RTX 4070 12GB EAGLE OC video card</h3>
+                <p>635.55 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/videocard3.png"></a>
+                <h3>Video card GF RTX 3050 8GB <br>GDDR6 Eagle OC Gigabyte</h3>
+                <p>305.73 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/videocard4.png"></a>
+                <h3>Video card GF GTX 1650 4GB GDDR6 D6 OC Gigabyte (GV-N1656OC-4GD)</h3>
+                <p>158.70 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Motherboards</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/materinka1.png"></a>
+                <h3>Motherboard Gigabyte B650M DS3H Socket AM5</h3>
+                <p>179.21 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/materinka2.webp"></a>
+                <h3>Motherboard Asus ROG Strix B550-F Gaming Socket AM4</h3>
+                <p> 168.54 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/materinka3.png"></a>
+                <h3>Motherboard Asus ROG Crosshair X670E Hero Socket AM5</h3>
+                <p>671.52 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/materinka4.png"></a>
+                <h3>Motherboard Asus Prime B550M-A WIFI II Socket AM4</h3>
+                <p>107.42 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Monitors</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/monitor1.jpg"></a>
+                <h3>Samsung 27" Odyssey G3A S27AG304 (LS27AG304)</h3>
+                <p>207.54 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/monitor2.jpg"></a>
+                <h3>Asus 27" VG279Q1A (90LM05X0-B05170) IPS Black 165Hz</h3>
+                <p>188.00 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/monitor3.webp"></a>
+                <h3>MSI 23.8" G2412 IPS <br>Black 170Hz</h3>
+                <p>146.49 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/monitor4.png"></a>
+                <h3>Asus 27" ROG Swift PG27UQR (90LM03A0-B02370) IPS Black 160Hz</h3>
+                <p>1277.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Cases</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/corpys1.png"></a>
+                <h3>Case Corsair iCUE 5000D RGB AirFlow Tempered Glass White (CC-9011243-WW) without PSU</h3>
+                <p>263.71 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/corpys2.png"></a>
+                <h3>Case Corsair iCUE 5000D RGB AirFlow Tempered Glass Black (CC-9011242-WW) without PSU</h3>
+                <p>263.71 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/corpys3.jpg"></a>
+                <h3>Case Corsair iCUE 5000X RGB QL Tempered Glass White (CC-9011233-WW) without PSU</h3>
+                <p>317.43 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/corpys4.jpg"></a>
+                <h3>Case Corsair iCUE 4000X RGB Tempered Glass Black (CC-9011204-WW) without PSU</h3>
+                <p>139.16 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Processors</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/proc1.webp"></a>
+                <h3>Processor Intel Core i9 13900F 2GHz (36MB, Raptor Lake, 219W, S1700) Box (BX8071513900F)</h3>
+                <p>549.01 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/proc2.jpg"></a>
+                <h3>Processor AMD Ryzen 9 7900X3D (4.4GHz 128MB 120W AM5) Box (100-100000909WOF)</h3>
+                <p>461.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/proc3.png"></a>
+                <h3>Processor Intel Core i7 13700K 3.4GHz (25MB, Raptor Lake, 125W, S1700) Box (BX8071513700K)</h3>
+                <p>422.71 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/proc4.png"></a>
+                <h3>Processor AMD Ryzen 7 5700G (3.8GHz 16MB 65W AM4) Box (100-100000263BOX)</h3>
+                <p>190.18 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Mice</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/maus1.png"></a>
+                <h3>HATOR Pulsar 2 PRO Wireless White (HTM-531)</h3>
+                <p>43.93 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/maus2.jpg"></a>
+                <h3>Logitech G Pro X Superlight 2 White (910-006638)</h3>
+                <p>161.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/maus3.jpg"></a>
+                <h3>Razer Viper V2 PRO White (RZ01-04390200-R3G1) Wireless+USB</h3>
+                <p>153.82 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/maus4.jpg"></a>
+                <h3>HyperX Pulsefire Haste 2 Wireless <br>Black (6N0B0AA)</h3>
+                <p>109.86 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Keyboards</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/klava1.png"></a>
+                <h3>Razer Huntsman Mini Analog Optical Switch Black (RZ03-04340100-R3M1)</h3>
+                <p>166.03 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/klava2.jpg"></a>
+                <h3>Logitech G Pro Mechanical <br>Gaming USB (920-009392)</h3>
+                <p>131.84 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/klava3.webp"></a>
+                <h3>HyperX Alloy Origins Red RGB PBT ENG/RU Black (639N3AA) USB</h3>
+                <p>114.74 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/klava4.jpg"></a>
+                <h3>Hator Rockfall 2 Optica TKL <br>Black White (HTK-731)</h3>
+                <p>57.36 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+
+
+        <h2>Headphones</h2><br>
+
+        <div class="box-container" id="box-container">
+            <div class="box">
+                <a href="#"><img src="images/yshu1.jpg"></a>
+                <h3>Razer Kraken Kitty V2 PRO Quartz (RZ04-04510200-R3M1)</h3>
+                <p>239.29 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/yshu2.jpg"></a>
+                <h3>HyperX Cloud III Wireless Black/Red (77Z46AA)</h3>
+                <p>183.12 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/yshu3.jpg"></a>
+                <h3>Logitech G733 Lightspeed RGB Gaming (981-000883) White</h3>
+                <p>161.14 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="box">
+                <a href="#"><img src="images/yshu4.jpg"></a>
+                <h3>Razer Kraken V3 Black <br>(RZ04-03770200-R3M1)</h3>
+                <p>117.19 $</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div> <br> <br> <br> <br>
+
+    </section>
+    <!--Our Categories section-->
+
+    <div class="read-more">
+        <a href="#" class="read-btn">Show More</a>
+    </div> <br> <br> <br> <br>
+
+    <!--Review section-->
+    <section class="review" id="review">
+        <h1 class="heading"> Customer's <span>Review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/mujiki-na-avu-026.jpg">
+                <h3>Bill Henry</h3>
+                <p>I'm happy with the PC and the deal I got from the company.
+                    I wanted a good PC that did the basics, and the site recommended
+                    one that ticked all the boxes.
+                    Speaking with the service team helped me get exactly what I was looking for.
+                    The only reason not to give 5 stars is the fact that I had to separately claim
+                    for the offered cash back deal,
+                    rather than it being automatic, and this info wasn't stated anywhere.</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/11be6c5d47fbe0d659bac5e1472df951.jpg">
+                <h3>Anna Rouse</h3>
+                <p>I ordered monitor MSI. Despite using the holiday delivery schedule on their site, not only did
+                    nothing turn up in time, but it took nearly week and three separate customer service inquiries to
+                    get an explanation from the company about what had happened. Eventually I got short email stating
+                    they'd taken my money despite not having the item in stock! The shop then took another nine days to
+                    process my refund. The company should adjust their system to let people know whether items are in
+                    stock or not so they don't create false expectations that goods will arrive on time.</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/b8cf1db10884ccec7239496f3ee6c7dc.jpg">
+                <h3>Henry Lemen</h3>
+                <p>Wouldn't recommend. The quality is on par with cheaper competitors.
+                    (On that note, CompetitorPrint.com is cheap and good.)
+                    This was so bad that I tried to call the company when I got my order.
+                    The guy I spoke to, John Smith, only answered when I called him on his private line, 555 4545.
+                    He was polite and said I could get a refund but it's still poor value for money.</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div> <br>
+
+    </section> <br>
+    <!--Review section-->
+
+    <!--Footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Digital Nexus </h3>
+                <p>Digital Nexus Distributions (PVT) Ltd is an innovative ICT
+                    product distributor and service provider which established in 2023.</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-telegram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +380666529120</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +380631267360</a>
+                <a href="#" class="links"><i class="fa fa-envelope"></i> digitalnexus@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker"></i> Ukraine</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#features" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                <a href="#products" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+                <a href="#categories" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                <a href="#review" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Enter Your Email For Latest Updates</p>
+                <input type="email" placeholder="Enter Your Email" class="email">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </div>
+        <div class="credit"> Created By <span>R_Anisian</span> | All Rights Reserved</div>
+    </section>
+    <!--Footer section-->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
